@@ -1,0 +1,170 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mainContainer {
+  background-color: #22b573;
+}
+
+.nav {
+  display: flex;
+  padding-top: 25px;
+  .navLeft {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 72px;
+    font-weight: 100;
+    padding-left: 8%;
+    letter-spacing: 10px;
+    @media only screen and (max-width: 1430px) {
+      font-size: 44px !important;
+      padding-left: 0% !important;
+    }
+    @media only screen and (max-width: 850px) {
+      font-size: 24px !important;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 22px !important;
+      letter-spacing: 3px;
+      justify-content: flex-start !important;
+      padding: 0px 20px !important;
+    }
+  }
+  .navRight {
+    display: flex;
+    width: 10%;
+    justify-content: flex-end;
+    .navIcon {
+      padding: 15px;
+      margin: 25px;
+      border-radius: 90px;
+      background-color: black;
+      fill: white !important;
+      font-size: 4.5rem !important;
+      position: relative;
+      z-index: 999;
+      @media only screen and (max-width: 600px) {
+        font-size: 2.5rem !important;
+      }
+    }
+  }
+}
+
+.mainSections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  @media only screen and (max-width: 1430px) {
+    flex-direction: column;
+  }
+  .section {
+    width: 22%;
+    margin: 0px 50px;
+    @media only screen and (max-width: 1710px) {
+      width: 33%;
+    }
+    @media only screen and (max-width: 1430px) {
+      width: 80% !important;
+      margin-bottom: 60px !important;
+    }
+  }
+  .section1 {
+    .section1main {
+      padding: 25px 45px 80px;
+      background-color: black;
+      margin-bottom: 15px !important;
+      height: 500px;
+    }
+    h4 {
+      font-size: 24px;
+      color: #fcb84c;
+      margin: 10px 0px 20px;
+      font-weight: 400;
+      @media only screen and (max-width: 500px) {
+        margin: 5px 0px 10px !important;
+      }
+    }
+    .section1text {
+      color: white;
+      font-size: 18px;
+      line-height: 35px;
+      @media only screen and (max-width: 500px) {
+        font-size: 16px !important;
+      }
+      @media only screen and (max-width: 400px) {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .section2 {
+    .section2main {
+      padding: 25px 45px 80px;
+      background-color: white;
+      margin-bottom: 15px !important;
+      height: 500px;
+    }
+    h4 {
+      font-size: 24px;
+      color: #fcb84c;
+      margin: 10px 0px 20px;
+      font-weight: 400;
+      @media only screen and (max-width: 500px) {
+        margin: 5px 0px 10px !important;
+      }
+    }
+    .section2text {
+      color: black;
+      font-size: 18px;
+      line-height: 35px;
+      @media only screen and (max-width: 500px) {
+        font-size: 16px !important;
+      }
+      @media only screen and (max-width: 400px) {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .section3 {
+    .section3main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 25px 45px 80px;
+      background-color: black;
+      margin-bottom: 15px !important;
+      height: 500px;
+    }
+    .playIconContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      .playIcon {
+        fill: white;
+        font-size: 13rem;
+      }
+    }
+    h4 {
+      font-size: 28px;
+      color: #fcb84c;
+      font-weight: 400;
+    }
+    .tileBottomTextContainer {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+}
+
+.linkUnderCards {
+  text-decoration: none;
+  color: #fcb84c;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
